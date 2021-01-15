@@ -1,0 +1,524 @@
+
+
+/*
+"ALEX DELARGE"
+CSS coding by NICOLAS CHENARD, 2019 
+www.nicolaschenard.fr 
+
+this is first attemp in producing css art
+*/
+
+* {
+    box-sizing: border-box;
+    transition: .1s;
+}
+
+body{
+    background-color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+main{
+    display:flex;
+
+    background-color: #D52027;
+    width:500px;
+    height:600px;
+    border-radius: 50px;
+
+}
+
+main:hover{
+    display:flex;
+
+    background-color:rgb(4, 0, 255);
+    width:500px;
+    height:600px;
+    border-radius: 50px;}
+
+.c1{
+width: 0;
+height: 0;
+border-left:170px solid transparent;
+border-right:170px solid transparent;
+border-bottom: 600px solid rgb(255, 255, 255);
+border-top: 0px solid ;
+position:absolute;
+margin-top:0px;
+margin-left:80px;
+}
+
+main:hover .c1{
+    width: 0;
+    height: 0;
+    border-left:170px solid transparent;
+    border-right:170px solid transparent;
+    border-bottom: 0px solid ;
+    border-top: 600px solid rgb(255, 255, 255);
+    position:absolute;
+    margin-top:0px;
+    margin-left:80px;
+    }
+
+.c2{
+    width: 0;
+    height: 0;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom: 80px solid rgb(0, 0, 0);
+    border-top: 0px solid );
+    position:absolute;
+    margin-top:520px;
+    margin-left:220px;
+}
+
+.c2b{
+    width: 0;
+    height: 0;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom: 0px solid ;
+    border-top: 80px solid rgb(0, 0, 0);
+    position:absolute;
+    margin-top:-80px;
+    margin-left:220px;
+}
+main:hover .c2{
+    width: 0;
+    height: 0;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom: 80px solid rgb(0, 0, 0);
+    border-top: 0px solid );
+    position:absolute;
+    margin-top:600px;
+    margin-left:220px;
+}
+
+main:hover .c2b{
+    width: 0;
+    height: 0;
+    border-left:30px solid transparent;
+    border-right:30px solid transparent;
+    border-bottom: 0px solid ;
+    border-top: 80px solid rgb(0, 0, 0);
+    position:absolute;
+    margin-top:0px;
+    margin-left:220px;
+}
+
+.c22{
+    height: 65px;
+    width :100px;
+    background-color:rgb(0, 0, 0);
+    border-bottom-right-radius: 160px;
+    border-top-right-radius: 120px;
+    position:absolute;
+    margin-top:265px;
+    margin-left:295px;
+    }
+    
+
+    .c222{
+        height: 55px;
+        width :100px;
+        background-color:rgb(0, 0, 0);
+        border-bottom-left-radius: 100px;
+        border-top-left-radius: 150px;
+        position:absolute;
+        margin-top:265px;
+        margin-left:85px;
+        }
+
+        .c2222{
+            height: 55px;
+            width :150px;
+            background-color:rgb(0, 0, 0);
+      
+            border-top-left-radius: 200px;
+           
+            border-top-right-radius: 200px;
+            position:absolute;
+            margin-top:155px;
+            margin-left:160px;
+            }
+
+.c3{
+
+    display: block;
+    width:210px;
+    height:210px;
+    background-color:rgb(0, 0, 0);
+    border-radius: 0% 0% 40% 70% / 40% 10% 90% 40%;
+    position:absolute;
+    margin-top:260px;
+    margin-left:145px;
+}
+.c4{
+
+    display: block;
+    width:200px;
+    height:200px;
+    background-color:#F8A475;
+    border-radius: 0% 0% 40% 70% / 40% 10% 90% 40%;
+    position:absolute;
+    margin-top:265px;
+    margin-left:150px;
+    
+}
+
+.c7{
+height: 130px;
+width :230px;
+background-color:rgb(0, 0, 0);
+border-top-left-radius: 100px;
+border-top-right-radius: 120px;
+position:absolute;
+margin-top:155px;
+margin-left:125px;
+}
+.c8{
+    height: 130px;
+    width :230px;
+    background-color:rgb(0, 0, 0);
+    border-top-left-radius: 120px;
+    border-top-right-radius: 100px;
+    position:absolute;
+    margin-top:155px;
+        margin-left:125px;
+    }
+
+    .c9{
+        width: 210px;
+        height:20px;
+        position:absolute;
+        margin-top:275px;
+        margin-left:140px;
+        background-color : rgb(0, 0, 0);
+    }
+
+    .c10{
+        width: 20px;
+        height:110px;
+        position:absolute;
+        margin-top:275px;
+        margin-left:150px;
+        background-color : rgb(0, 0, 0);
+    }
+    .c11{
+        width: 100px;
+        height:70px;
+        position:absolute;
+        margin-top:275px;
+        margin-left:120px;
+        background-color : rgb(0, 0, 0);
+    }
+
+
+    .c12{
+        width: 150px;
+        height:100px;
+        position:absolute;
+        border-top-left-radius: 80px;
+border-top-right-radius: 200px;
+        background-color : #F8A475;
+        margin-top:290px;
+        margin-left:170px;
+    }
+    
+
+
+
+
+    .c13{
+  
+        width: 90px;
+        height:30px;
+        position:absolute;
+        margin-top:275px;
+        margin-left:260px;
+        background-color: #F8A475;
+
+    }
+
+
+    .c14{
+        width: 100px;
+        height:20px;
+        position:absolute;
+       
+        border-bottom-right-radius: 200px;
+        background-color : #F8A475;
+        margin-top:275px;
+        margin-left:250px;
+    }
+
+    .c15{
+        width: 120px;
+        height:60px;
+        position:absolute;
+        border-radius:50%;
+        
+        background-color : rgb(0, 0, 0);
+        margin-top:240px;
+        margin-left:235px;
+    }
+    
+    .c155{
+        width: 120px;
+        height:60px;
+        position:absolute;
+        border-radius:50%;
+        
+        background-color : rgb(0, 0, 0);
+        margin-top:240px;
+        margin-left:225px;
+    }
+   
+.d1{
+width: 0;
+    height: 0;
+    border-left:5px solid transparent;
+    border-right:5px solid transparent;
+    border-bottom: 30px solid rgb(0, 0, 0);
+    position:absolute;
+    margin-top:286px;
+        margin-left:210px;
+    
+}
+.d2{
+    width: 0;
+        height: 0;
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-bottom: 30px solid rgb(0, 0, 0);
+        position:absolute;
+        margin-top:296px;
+    margin-left:200px;
+    }
+    .d3{
+        width: 0;
+            height: 0;
+            border-left:5px solid transparent;
+            border-right:5px solid transparent;
+            border-bottom: 30px solid rgb(0, 0, 0);
+            position:absolute;
+            margin-top:306px;
+            margin-left:190px;
+        }
+        
+        .d4{
+            width: 0;
+                height: 0;
+                border-left:5px solid transparent;
+                border-right:5px solid transparent;
+                border-top: 30px solid rgb(0, 0, 0) ;
+                position:absolute;
+                margin-top:374px;
+                    margin-left:210px;
+                
+            }
+
+            .d5{
+                width: 0;
+                    height: 0;
+                    border-left:5px solid transparent;
+                    border-right:5px solid transparent;
+                    border-top: 30px solid rgb(0, 0, 0);
+                    position:absolute;
+                    margin-top:364px;
+                margin-left:200px;
+                }
+                .d6{
+                    width: 0;
+                        height: 0;
+                        border-left:5px solid transparent;
+                        border-right:5px solid transparent;
+                        border-top: 30px solid rgb(0, 0, 0);
+                        position:absolute;
+                        margin-top:354px;
+                        margin-left:190px;
+                    }
+
+
+.c16{
+    width : 65px;
+    height: 65px;
+      position:absolute;
+    border-radius:50%;
+    
+    background-color : rgb(0, 0, 0);
+    margin-top:310px;
+    margin-left:185px;
+}
+
+.c17{
+    width : 50px;
+    height: 50px;
+      position:absolute;
+    border-radius:50%;
+    
+    background-color : rgb(255, 255, 255);
+    margin-top:317.5px;
+    margin-left:192.5px;
+}
+
+.c18{
+    width : 25px;
+    height: 25px;
+      position:absolute;
+    border-radius:50%;
+    
+    background-color : rgb(0, 0, 0);
+    margin-top:330px;
+    margin-left:205px;
+}
+
+
+            main:hover .c16{
+                width : 69px;
+                height: 69px;
+                position:absolute;
+                border-radius:50%;
+                
+                background-color : rgb(0, 0, 0);
+                margin-top:308px;
+                margin-left:183px;
+            }
+
+            main:hover .c17{
+                width : 56.5px;
+                height: 56.5px;
+                position:absolute;
+                border-radius:50%;
+                
+                background-color : rgb(255, 255, 255);
+                margin-top:314.5px;
+                margin-left:189px;
+            }
+
+            main:hover .c18{
+                width : 16px;
+                height: 16px;
+                 position:absolute;
+                 border-radius:50%;
+    
+                background-color : rgb(0, 0, 0);
+                 margin-top:335px;
+                margin-left:209px;;
+            }
+
+
+.c20{
+    width : 50px;
+    height: 100px;
+      position:absolute;
+      border-bottom-left-radius: 200px;
+      border-top-left-radius: 200px;
+      
+      border-bottom-right-radius: 100px;
+      border-top-right-radius: 100px;
+    
+    background-color :rgb(0, 0, 0);
+    margin-top:305px;
+    margin-left:105px;
+}
+
+.c21{
+    width : 40px;
+    height: 90px;
+      position:absolute;
+      border-bottom-left-radius: 200px;
+      border-top-left-radius: 200px;
+      
+      border-bottom-right-radius: 100px;
+      border-top-right-radius: 100px;
+    
+    background-color: #F8A475;
+    margin-top:310px;
+    margin-left:110px;
+}
+.c23{
+    width: 24px;
+    height:13px;
+    position:absolute;
+    margin-top:373px;
+    margin-left:148px;
+    background-color : #F8A475;
+}
+.c24{
+    width: 5px;
+    height:40px;
+    position:absolute;
+    margin-top:333px;
+    margin-left:140px;
+    background-color : rgb(0, 0, 0);
+}
+
+
+main:hover .d1{
+    width: 0;
+        height: 0;
+        border-left:5px solid transparent;
+        border-right:5px solid transparent;
+        border-bottom: 30px solid rgb(0, 0, 0);
+        position:absolute;
+        margin-top:290px;
+            margin-left:210px;
+        
+    }
+    main:hover  .d2{
+        width: 0;
+            height: 0;
+            border-left:5px solid transparent;
+            border-right:5px solid transparent;
+            border-bottom: 30px solid rgb(0, 0, 0);
+            position:absolute;
+            margin-top:300px;
+        margin-left:200px;
+        }
+        main:hover  .d3{
+            width: 0;
+                height: 0;
+                border-left:5px solid transparent;
+                border-right:5px solid transparent;
+                border-bottom: 30px solid rgb(0, 0, 0);
+                position:absolute;
+                margin-top:310px;
+                margin-left:190px;
+            }
+            
+            main:hover  .d4{
+                width: 0;
+                    height: 0;
+                    border-left:5px solid transparent;
+                    border-right:5px solid transparent;
+                    border-top: 30px solid rgb(0, 0, 0) ;
+                    position:absolute;
+                    margin-top:370px;
+                        margin-left:210px;
+                    
+                }
+    
+                main:hover  .d5{
+                    width: 0;
+                        height: 0;
+                        border-left:5px solid transparent;
+                        border-right:5px solid transparent;
+                        border-top: 30px solid rgb(0, 0, 0);
+                        position:absolute;
+                        margin-top:360px;
+                    margin-left:200px;
+                    }
+                    main:hover  .d6{
+                        width: 0;
+                            height: 0;
+                            border-left:5px solid transparent;
+                            border-right:5px solid transparent;
+                            border-top: 30px solid rgb(0, 0, 0);
+                            position:absolute;
+                            margin-top:350px;
+                            margin-left:190px;
+                        }
